@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>データ入力</title>
 </head>
 <body>
 
-<p>aaa</p>
+<p>問合せフォーム</p>
+<form action="write.php" method="post">
+    氏名: <input type="text" name="name">
+    E-mail: <input type="text" name="mail">
+    電話番号: <input type="text" name="phone">
+    <input type="submit" value="送信">
+</form>
     
 </body>
 </html>
